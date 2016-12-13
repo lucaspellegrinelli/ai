@@ -56,7 +56,7 @@ In the braile language, the letters are written in 6 dots, that can be flat with
 
 <img src="http://www.projetoacesso.org.br/site/images/Screen%20Shot%202012-12-06%20at%204.46.41%20PM.png"/>
 
-The inputs (remember that the size of the arrays must be equal to the number of input neurons defined in the ```NNSchemeConfig```!):
+The inputs we will be using to train the network (remember that the size of the arrays must be equal to the number of input neurons defined in the ```NNSchemeConfig```!):
 ```java
 double[][] inputs = {
     {1.0, 0.0, 0.0, 0.0, 0.0, 0.0}, // A
