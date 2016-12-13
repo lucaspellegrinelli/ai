@@ -24,7 +24,8 @@ And finally, to create our ```NeuralNetwork``` object we can simply
 ```java
 NeuralNetwork neuralNetwork = new NeuralNetwork(nSchemeConfig, nConfig);
 ```
-You can also use a ```NNDebug``` and a ```NNSave``` object in the constructor.
+
+But you can also use a ```NNDebug``` and a ```NNSave``` object in the constructor.
 
 The ```NNDebug``` object is used to define if you want debug messages to be shown in the console while training the network and in which rate these messages will appear.
 ```java
