@@ -2,6 +2,7 @@
 
 ## Creating the Neural Network object
 To create your ```NeuralNetwork``` object is very simple. The most basic constructor take only 2 parameters: A ```NNSchemeConfig``` and a ```NNConfig``` objects!
+
 The ```NNSchemeConfig``` is responsible for defining how much neurons will be created on the Input Layer, the number of hidden layers, the number of neurons on each hidden layer and the number of output layers.
 ```java
 final int INPUT_NEURONS = 6;
@@ -23,5 +24,4 @@ And finally, to create our ```NeuralNetwork``` object we can simply
 ```java
 NeuralNetwork neuralNetwork = new NeuralNetwork(nSchemeConfig, nConfig);
 ```
-
-### To be continued....
+You can also use a ```NNDebug``` and a ```NNSave``` object in the constructor.
