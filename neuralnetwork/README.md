@@ -1,7 +1,7 @@
 # Neural Network
 
 ## Creating the Neural Network object
-To create your ```NeuralNetwork``` object is very simple. The most basic constructor take only 2 parameters: A ```NNSchemeConfig``` and a ```NNConfig``` objects!
+To create your ```NeuralNetwork``` object is very simple. The most basic constructor takes only 2 parameters: A ```NNSchemeConfig``` and a ```NNConfig``` objects!
 
 The ```NNSchemeConfig``` is responsible for defining how much neurons will be created on the Input Layer, the number of hidden layers, the number of neurons on each hidden layer and the number of output layers.
 ```java
