@@ -145,3 +145,5 @@ List<Double> outputs = neuralNetwork.runNetwork(inputSet);
 ```
 
 And you just successfully created a neural network!
+
+If everything goes as planned, the output neuron would fire a value around ```0.115384615```, that is (```The position of the letter in the alphabet``` **/** ```Number of letters in the alphabet``` -> ```3``` **/** ```26``` = ```0.115384615```).
