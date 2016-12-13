@@ -52,6 +52,9 @@ In this example, I will show how to train a network to recognize ```Braile``` sy
 
 In the braile language, the letters are written in 6 dots, that can be flat with the paper or outjogged, arranged in 3 lines with 2 dots each. For simplicity sake we will use a vector with 6 positions. The dots flat with the paper will be represented like 0's and the outjogged ones represented like 1's.
 
+<img src="http://www.projetoacesso.org.br/site/images/Screen%20Shot%202012-12-06%20at%204.46.41%20PM.png"/>
+##### The braile alphabet
+
 The inputs (remember that the size of the arrays must be equal to the number of input neurons defined in the ```NNSchemeConfig```!):
 ```java
 double[][] inputs = {
