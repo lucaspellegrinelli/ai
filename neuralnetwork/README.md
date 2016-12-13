@@ -21,7 +21,7 @@ NNConfig nConfig = new NNConfig(LEARNING_RATE, MOMENTUM, ACT_FUNCTION);
 
 And finally, to create our ```NeuralNetwork``` object we can simply
 ```java
-NeuralNetwork neuralNetwork = new NeuralNetwork(nSchemeConfig, nConfig, nDebug, nSave);
+NeuralNetwork neuralNetwork = new NeuralNetwork(nSchemeConfig, nConfig);
 ```
 
 ### To be continued....
