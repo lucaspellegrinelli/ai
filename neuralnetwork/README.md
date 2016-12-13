@@ -51,7 +51,7 @@ In this example, I will show how to train a network to recognize ```Braile``` sy
 
 In the braile language, the letters are written in 6 dots, that can be flat with the paper or outjogged, arranged in 3 lines with 2 dots each. For simplicity sake we will use a vector with 6 positions. The dots flat with the paper will be represented like 0's and the outjogged ones represented like 1's.
 
-The inputs:
+The inputs (remember that the size of the arrays must be equal to the number of input neurons defined in the ```NNSchemeConfig```!):
 ```java
 double[][] inputs = {
     {1.0, 0.0, 0.0, 0.0, 0.0, 0.0}, // A
@@ -83,7 +83,7 @@ double[][] inputs = {
 };
 ```
 
-And the outputs for each input:
+And the outputs for each input (remember that the size of the arrays must be equal to the number of output neurons defined in the ```NNSchemeConfig```!):
 ```java
 double[][] outputs = {
     {(((int)'A') - 64) / 26.0},
@@ -124,3 +124,19 @@ final double ERROR_TO_STOP = 0.25;
 neuralNetwork.trainNetwork(trainingSet, ERROR_TO_STOP);
 ```
 And after the program runs, you have successfully trained your network!
+
+## Running the network
+To run the neural network with a custom input is also veeery simple.
+
+All you need to have is a Input Set (yes, a ```NNInputSet``` object!) with the input you want to run like:
+```java
+double[] input = {1.0, 1.0, 0.0, 0.0, 0.0, 0.0}; // C
+NNInputSet inputSet = new NNInputSet(input);
+```
+
+And then simply call the ```runNetwork``` method that will return a list of doubles (```List<Double>```) with all the values of the output neurons!
+```java
+List<Double> outputs = neuralNetwork.runNetwork(inputSet);
+```
+
+And you just successfully created a neural network!
