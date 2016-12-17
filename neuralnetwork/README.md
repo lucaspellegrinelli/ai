@@ -92,7 +92,11 @@ double[][] inputs = {
 
 And the outputs for each input:
 ```java
-// We defined that every letter will be represented by a number bigger than 0 and smaller or equal to 1. To do that we will divide the position of the letter in the alphabet by the number of letters in it (26 letters in the alphabet).
+/* 
+We defined that every letter will be represented by a number bigger
+than 0 and smaller or equal to 1. To do that we will divide the position
+of the letter in the alphabet by the number of letters in it (26 letters in the alphabet).
+*/
 double[][] outputs = {
     {(((int)'A') - 64) / 26.0},
     {(((int)'B') - 64) / 26.0},
