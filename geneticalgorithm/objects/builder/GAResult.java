@@ -40,7 +40,7 @@ public class GAResult {
     
     @Override
     public String toString(){
-        String result = "Iterations needed: " + numberOfGenerations + "\n";
+        String result = "Generations needed: " + numberOfGenerations + "\n";
         for (String sectionName : getSectionNames()) {
             result += sectionName + ": " + getSectionValue(sectionName) + "\n";
         }
