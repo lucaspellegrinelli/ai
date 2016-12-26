@@ -122,11 +122,13 @@ The section values should be around 0.99 and 0.01 meaning that the points are cl
 
 My output:
 ```
-Generations needed: 549
-PointAX: 9.186826493334799E-5
-PointBY: 0.9913614810987991
-PointBX: 0.994536321041905
-PointAY: 0.002953697193351923
+#693 -> The fittest fitness: 1.4027556030148438
+
+Generations needed: 693
+PointAX: 0.9981035560053086
+PointBY: 0.9904238737022315
+PointBX: 2.9001630534486456E-4
+PointAY: 0.004476906679680703
 ```
 
 Just as expected!
