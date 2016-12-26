@@ -54,8 +54,14 @@ that the greater the fitness, the better it is).
 final GAFitnessCalculator FITNESS_CALCULATOR = new GAFitnessCalculator() {
     @Override
     public double calculateFitness(GeneSet gene) {
-        double pointsDeltaX = Math.abs(gene.getSectionValue("PointAX") - gene.getSectionValue("PointBX")); // Delta X
-        double pointsDeltaY = Math.abs(gene.getSectionValue("PointAY") - gene.getSectionValue("PointBY")); // Delta X
+        double pointAXValue = gene.getSectionValue("PointAX");
+        double pointAYValue = gene.getSectionValue("PointAY");
+        double pointBXValue = gene.getSectionValue("PointBX");
+        double pointBYValue = gene.getSectionValue("PointBY");
+        
+        double pointsDeltaX = Math.abs(pointAXValue - pointBXValue); // Delta X
+        double pointsDeltaY = Math.abs(pointAYValue - pointBYValue); // Delta X
+        
         double distanceBetweenPoints = Math.hypot(pointsDeltaX, pointsDeltaY); // Hipotenuse = sqrt(deltaX^2 + deltaY^2)
         return distanceBetweenPoints;
     }
