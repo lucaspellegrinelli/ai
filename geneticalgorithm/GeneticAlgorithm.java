@@ -80,7 +80,7 @@ public final class GeneticAlgorithm {
             population = core.evolvePopulation(population);
         }
         
-        if (debug.isDebug() && currentGenerationCount % debug.getDebugFrequency() == 0 && currentGenerationCount < maxNumberOfGenerations) {
+        if (debug.isDebug() && currentGenerationCount < maxNumberOfGenerations) {
             showDebug(currentGenerationCount, core.getFittestIndividual(population).getFitness());
             if (debug.isShowFittestGene()) {
                 showGeneSet(core.getFittestIndividual(population));
