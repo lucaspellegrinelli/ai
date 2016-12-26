@@ -40,8 +40,8 @@ the one that takes the ```mutation rate```, the ```tournament selection size``` 
 
 ```java
 final double MUTATION_RATE = 0.015;
-final int TOURNAMENT_SIZE = 5;
-final boolean ELITISM = true;
+final int TOURNAMENT_SIZE = 5; // Optional
+final boolean ELITISM = true; // Optional
 GAConfig config = new GAConfig(MUTATION_RATE, TOURNAMENT_SIZE, ELITISM);
 ```
 
