@@ -6,4 +6,4 @@ Open the [```neuralnetwork```](https://github.com/lucaspellegrinelli/ai/tree/mas
 
 
 ## Genetic Algorithm
-Open the [```neuralnetwork```](https://github.com/lucaspellegrinelli/ai/tree/master/geneticalgorithm) folder to get more info or open the [```TestGeneticAlgorithmPointDistance.java```](https://github.com/lucaspellegrinelli/ai/blob/master/TestGeneticAlgorithmPointDistance.java) file to see a working example!
+Open the [```geneticalgorithm```](https://github.com/lucaspellegrinelli/ai/tree/master/geneticalgorithm) folder to get more info or open the [```TestGeneticAlgorithmPointDistance.java```](https://github.com/lucaspellegrinelli/ai/blob/master/TestGeneticAlgorithmPointDistance.java) file to see a working example!
