@@ -100,6 +100,8 @@ After that just call the ```evolve``` method in the ```GeneticAlgorithm``` objec
 you are done!
 
 ```java
+final double MIN_FITNESS_TO_STOP = 1.4;
+final int MAX_NUMBER_OF_GENERATIONS = 1000;
 GAResult result = geneticAlgorithm.evolve(MIN_FITNESS_TO_STOP, MAX_NUMBER_OF_GENERATIONS);
 ```
 
