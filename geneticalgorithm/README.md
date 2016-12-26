@@ -119,3 +119,14 @@ If everything goes as planned, the fitness of the fittest individual should be a
 from one point to another in a square is its diagonal and since the diagonal of a 1 unit square is sqrt(2), the fitness should be around that.
 
 The section values should be around 0.99 and 0.01 meaning that the points are close to the sides of the square, which makes sense!
+
+My output:
+```
+Generations needed: 549
+PointAX: 9.186826493334799E-5
+PointBY: 0.9913614810987991
+PointBX: 0.994536321041905
+PointAY: 0.002953697193351923
+```
+
+Just as expected!
