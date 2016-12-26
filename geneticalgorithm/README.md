@@ -15,7 +15,7 @@ and a ```GAFitnessCalculator```.
 The ```GASchemeConfig``` is used to determine how many individuals will be created in each population and how the gene of each individual
 will be. This gene configuration is a list of "Gene Sections", used as a ```List<GAGeneSection>``` object.
 
-The ```GAGeneSection``` is nothing more than a part of the gene as the name suggests. It has a ```name```, a ```minValue``` and a ```maxValue```.
+The ```GAGeneSection``` is nothing more than a part of the gene as the name suggests. It has a name, a minValue and a maxValue.
 An individual can have as much gene sections as you want. This ideia will be better understood with an example.
 
 ```java
