@@ -48,7 +48,7 @@ GAConfig config = new GAConfig(MUTATION_RATE, TOURNAMENT_SIZE, ELITISM);
 Finally, the last object is a ```GAFitnessCalculator``` object that is responsible for defining how the fitness calculation will be.
 
 In my case the fitness function was simple the 2D distance from one point to another. (The fitness function must always follow the ideia
-that the greater the fitness is, the better it is).
+that the greater the fitness, the better it is).
 
 ```java
 final GAFitnessCalculator FITNESS_CALCULATOR = new GAFitnessCalculator() {
