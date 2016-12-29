@@ -60,7 +60,7 @@ final GAFitnessCalculator FITNESS_CALCULATOR = new GAFitnessCalculator() {
         double pointBYValue = gene.getSectionValue("PointBY");
         
         double pointsDeltaX = Math.abs(pointAXValue - pointBXValue); // Delta X
-        double pointsDeltaY = Math.abs(pointAYValue - pointBYValue); // Delta X
+        double pointsDeltaY = Math.abs(pointAYValue - pointBYValue); // Delta Y
         
         double distanceBetweenPoints = Math.hypot(pointsDeltaX, pointsDeltaY); // Hipotenuse = sqrt(deltaX^2 + deltaY^2)
         return distanceBetweenPoints;
