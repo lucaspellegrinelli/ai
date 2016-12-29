@@ -106,7 +106,7 @@ GAResult result = geneticAlgorithm.evolve(MIN_FITNESS_TO_STOP, MAX_NUMBER_OF_GEN
 ```
 
 From the ```GAResult``` object, you can get the values of each gene section of the fittest individual using the ```getSectionValue(String sectionName)``` method
-and the number of generation the algorithm took to create this individual using the ```getNumberOfGenerations()``` method.
+and the number of generations the algorithm took to create this individual using the ```getNumberOfGenerations()``` method.
 
 ```java
 int numberOfGenerationItTook = result.getNumberOfGenerations();
@@ -115,7 +115,7 @@ double pointAYValue = result.getSectionValue("PointAY");
 double pointBXValue = result.getSectionValue("PointBX");
 double pointBYValue = result.getSectionValue("PointBY");
 ```
-If everything goes as planned, the fitness of the fittest individual should be around ```sqrt(2) ~ 1.4``` because the longest distance
+If everything goes as planned, in this example, the fitness of the fittest individual should be around ```sqrt(2) ~ 1.4``` because the longest distance
 from one point to another in a square is its diagonal and since the diagonal of a 1 unit square is sqrt(2), the fitness should be around that.
 
 The section values should be around 0.99 and 0.01 meaning that the points are close to the sides of the square, which makes sense!
