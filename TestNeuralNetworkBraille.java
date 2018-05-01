@@ -15,8 +15,8 @@ public class TestNeuralNetworkBraille {
         final int NEURONS_EACH_HIDDEN_LAYER = 6;
         final int OUTPUT_NEURONS = 1;
         
-        final double LEARNING_RATE = 0.7;
-        final double MOMENTUM = 0.5;
+        final double LEARNING_RATE = 0.75;
+        final double MOMENTUM = 0.9;
         final NNActivationFunction ACT_FUNCTION = NNActivationFunction.SOFT_STEP;
         
         final double ERROR_TO_STOP = 0.25;
