@@ -17,7 +17,7 @@ public class TestNeuralNetworkBraille {
         
         final double LEARNING_RATE = 0.7;
         final double MOMENTUM = 0.5;
-        final NNActivationFunction ACT_FUNCTION = NNActivationFunction.GAUSSIAN;
+        final NNActivationFunction ACT_FUNCTION = NNActivationFunction.SOFT_STEP;
         
         final double ERROR_TO_STOP = 0.25;
         
