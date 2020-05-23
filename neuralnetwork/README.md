@@ -44,10 +44,3 @@ An example of ```NeuralNetwork``` constructor using all these objects would be:
 ```java
 NeuralNetwork neuralNetwork = new NeuralNetwork(nSchemeConfig, nConfig, nDebug, nSave);
 ```
-
-## Training the Neural Network
-To train the network is also pretty simple, we need a Training set and guess how do you create it. Yes a ```NNTrainingSet``` object!
-
-In this example, I will show how to train a network to recognize ```Braille``` symbols!
-
-In the braile language, the letters are written in 6 dots, that can be flat with the paper or outjogged, arranged in 3 lines with 2 dots each. For simplicity sake we will use a vector with 6 positions. The dots flat with the paper will be represented like 0's and the outjogged ones represented like 1's.
